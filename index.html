@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Assignment</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./jquery-3.6.0.min.js"></script>
+    <script src="./script.js"></script>
+
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="header">
+            <div> <a href="#home" id="sortLastName" >Last Name</a>
+                <a href="#news" id="sortZipCode">Zip code </a>
+            </div>
+            <div>
+                <a href="#contact" id="create">Create</a>
+            </div>
+        </div>
+    </div>
+
+
+    <input id="zipCodeStorting">
+    <input id="lasNameSorting">
+
+    <div class="main">
+        <div class="addNew">
+            <form id="myForm">
+                <div class="row">
+                    <div class="column">
+                        <label for="fname">Name</label>
+                        <input type="text" name="name" placeholder="Your name..">
+                    </div>
+                    <div class="column">
+
+                        <label for="lname">User name</label>
+                        <input type="text" name="username" placeholder="Your last name..">
+                    </div>
+                    <div class="column">
+
+                        <label for="fname">Email</label>
+                        <input type="text" name="email" placeholder="Your name..">
+                    </div>
+                    <div class="column">
+
+                        <label for="lname">Phone no</label>
+                        <input type="text" name="phone" placeholder="Your last name..">
+                    </div>
+
+
+                    <div class="column">
+                        <label for="fname">Website</label>
+                        <input type="text" id="fname" name="website" placeholder="Your name..">
+                    </div>
+                    <div class="column">
+
+                        <label for="lname">Street</label>
+                        <input type="text" id="lname" name="address.street" placeholder="Your last name..">
+                    </div>
+                    <div class="column">
+
+                        <label for="fname">Suite</label>
+                        <input type="text" id="fname" name="address.suite" placeholder="Your name..">
+                    </div>
+                    <div class="column">
+
+                        <label for="lname">City</label>
+                        <input type="text" id="lname" name="address.city" placeholder="Your last name..">
+                    </div>
+
+                    <div class="column">
+
+                        <label for="lname">Zip Code</label>
+                        <input type="text" name="address.zipcode" placeholder="Your last name..">
+                    </div>
+
+
+                    <div class="column">
+                        <label for="fname">Company Name</label>
+                        <input type="text" name="company.name" placeholder="Your name..">
+                    </div>
+                    <div class="column">
+
+                        <label for="lname">Catch Phrase</label>
+                        <input type="text" name="company.catchPhrase" placeholder="Your last name..">
+                    </div>
+                    <div class="column">
+
+                        <label for="fname">bs</label>
+                        <input type="text" id="fname" name="company.bs" placeholder="Your name..">
+                    </div>
+
+
+
+                    <input type="submit" value="Submit">
+                </div>
+            </form>
+        </div>
+        <div class="row cardRow">
+            <div class="hiddenCard">
+
+                <div class="column">
+                    <div class="card">
+                        <h3>name</h3>
+
+                        <div class="info">
+                            <div class="label">
+                                User Name:
+                            </div>
+                            <div class="value">usernameData</div>
+                        </div>
+                        <div class="info">
+
+                            <div class="label">
+                                Email:
+                            </div>
+                            <div class="value">emailData</div>
+                        </div>
+
+                        <div class="info">
+                            <div class="label">
+                                Phone:
+                            </div>
+                            <div class="value">phone</div>
+                        </div>
+                        <div class="info">
+
+                            <div class="label">
+                                Website:
+                            </div>
+                            <div class="value">websitedata</div>
+                        </div>
+
+                        <div class="info">
+                            <div class="label">
+                                Street:
+                            </div>
+                            <div class="value">streetData</div>
+                        </div>
+                        <div class="info">
+                            <div class="label">
+                                Suite:
+                            </div>
+                            <div class="value">suiteData</div>
+                        </div>
+
+                        <div class="info">
+                            <div class="label">
+                                City:
+                            </div>
+                            <div class="value">city</div>
+                        </div>
+                        <div class="info">
+                            <div class="label">
+                                ZIP Code:
+                            </div>
+                            <div class="value">zipcode</div>
+                        </div>
+
+                        <div class="info">
+                            <div class="label">
+                                Company Name:
+                            </div>
+                            <div class="value">companyName</div>
+                        </div>
+                        <div class="info">
+                            <div class="label">
+                                Catch Phrase:
+                            </div>
+                            <div class="value">catchPhrase</div>
+                        </div>
+
+                        <div class="info">
+                            <div class="label">
+                                BS:
+                            </div>
+                            <div class="value">bsData</div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+
+</html>
